@@ -1,19 +1,39 @@
-# node-todo-cicd
+# Node Todo App - CI/CD Pipeline
 
-Run these commands:
+This repository was forked from an existing project for learning DevOps practices.
 
+## What I Implemented
 
-`sudo apt install nodejs`
+I implemented a complete CI/CD pipeline using:
 
+- Jenkins
+- Docker
+- GitHub Webhooks
+- AWS EC2
 
-`sudo apt install npm`
+## Pipeline Workflow
 
+GitHub Push → Jenkins Build → Docker Image Build → Container Deployment
 
-`npm install`
+## Deployment Steps
 
-`node app.js`
+1. Created an EC2 instance on AWS
+2. Installed Jenkins and Docker
+3. Forked the Node.js Todo application repository
+4. Created a Dockerfile
+5. Built Docker image using Jenkins pipeline
+6. Deployed the container on EC2
+7. Configured GitHub Webhook to trigger Jenkins automatically
 
-or Run by docker compose
+## Tools Used
 
-test
+- GitHub
+- Jenkins
+- Docker
+- AWS EC2
+- Node.js
+
+## Author
+
+Adarsh Tiwari
 
